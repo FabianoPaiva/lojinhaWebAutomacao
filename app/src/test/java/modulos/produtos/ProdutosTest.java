@@ -15,7 +15,7 @@ public class ProdutosTest {
     @DisplayName("Nao e permitido registrar um produto com valor igual a zero")
     public void testNaoEPermitidoRegistrarProdutoComValorIgualAZero() {
         //Abrir o navegador
-        System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "E:\\projetos\\estudos\\seleniumWebDriver\\drivers\\chromedriver_win32\\chromedriver.exe");
         WebDriver navegador = new ChromeDriver();
 
         //Maximizar a tela
